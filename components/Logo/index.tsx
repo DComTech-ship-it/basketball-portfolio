@@ -6,6 +6,11 @@ import styles from './styles.module.css'
 import { ThemeMode, mobileBreakpointsMap } from 'config/theme'
 import { simpleOpacity } from 'config/animations'
 
+const LogoImages = {
+  DarkMode: '/Basketball player (1).svg',
+  LightMode: '/Basketball player (1).svg',
+}
+
 const Logo = () => {
   const { colorMode } = useColorMode()
   const [isLogoLoaded, setLogoLoaded] = useState(false)
@@ -19,7 +24,7 @@ const Logo = () => {
             className={!isMobile ? styles.logo : ''}
             boxSize={isMobile ? '30px' : '50px'}
             objectFit="cover"
-            src="./logo-dark.svg"
+            src="/Basketball player (1).svg"
             alt="AGBOBLI ELLIOT EDEM Logo"
             fallbackSrc="./logo.png"
             variants={simpleOpacity}
@@ -33,7 +38,7 @@ const Logo = () => {
             className={!isMobile ? styles.logo : ''}
             boxSize={isMobile ? '30px' : '50px'}
             objectFit="cover"
-            src="./logo-light.svg"
+            src="/Basketball player (1).svg"
             alt="AGBOBLI ELLIOT EDEM Logo"
             fallbackSrc="./logo_light.png"
             variants={simpleOpacity}

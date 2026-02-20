@@ -57,9 +57,6 @@ const Avatar = () => {
           margin="auto"
           fallback={<SkeletonCircle height="100%" width="100%" />}
         />
-        <Text textAlign="center" fontSize="smaller" variant="description">
-          Photo of AGBOBLI ELLIOT EDEM
-        </Text>
       </MotionBox>
     </AnimatePresence>
   )
