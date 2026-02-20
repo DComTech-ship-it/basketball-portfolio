@@ -21,7 +21,7 @@ import {
   GiBasketballJersey,
   GiTargeted,
   GiFootprint,
-  GiStar,
+  GiStairs,
   GiAcademicCap,
   GiTeamUpgrade,
 } from 'react-icons/gi'
@@ -50,7 +50,7 @@ const Achievements = () => {
       title: 'League All-Star Selection',
       description: 'Selected to Premier Division All-Star Team',
       category: 'All-Star',
-      icon: GiStar,
+      icon: GiStairs,
       color: 'purple',
       stats: '18.5 PPG season average',
       team: 'City Elite',
@@ -225,7 +225,7 @@ const Achievements = () => {
           </Stat>
           <Stat textAlign="center">
             <StatLabel display="flex" alignItems="center" justifyContent="center" gap={2}>
-              <Icon as={GiStar} color="purple.500" /> Total
+              <Icon as={GiTrophy} color="purple.500" /> Total
             </StatLabel>
             <StatNumber fontSize="3xl">{achievementStats.totalAchievements}</StatNumber>
             <StatHelpText>All Achievements</StatHelpText>
