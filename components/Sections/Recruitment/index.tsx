@@ -20,10 +20,10 @@ import {
   Image,
 } from '@chakra-ui/react'
 import {
+  FaGraduationCap,
   FaDownload,
   FaEnvelope,
   FaPhone,
-  FaGraduationCap,
   FaRulerVertical,
   FaWeight,
   FaCalendarAlt,
