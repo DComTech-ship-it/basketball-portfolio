@@ -184,7 +184,7 @@ const Recruitment = () => {
               <Button
                 leftIcon={<FaDownload />}
                 colorScheme="blue"
-                onClick={() => window.open('/player-profile.pdf', '_blank')}
+                onClick={() => window.open('/LawingcoMarcJhon2021v2.pdf', '_blank')}
               >
                 Download Profile PDF
               </Button>
