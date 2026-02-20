@@ -1,11 +1,10 @@
-# KL Lawingco's Personal Site
+# Basketball Player Portfolio
 
-Hey there! KL here. This is a v2 of my portfolio site, a complete rewrite from v1 which is shamefully a template I edited a bit back on 2018. I wanted to try out what I can do on my own in regards to UI and UX design so I reckon why not start with my porfolio.
+Hey there! This is a professional basketball portfolio showcasing my journey, skills, and achievements in basketball. This site demonstrates my career progression from high school through college to amateur leagues, highlighting my stats, achievements, and basketball capabilities.
 
 This is written in Typescript using [Next.js](https://nextjs.org/), as a SSG tool. It utilizes [ChakraUI](https://chakra-ui.com/) as well as  [Framer Motion](https://www.framer.com/motion/) for animations.
 
-
-This contains bits of my details. In future I am planning to get this to cater my own blog too but for now will use dev.to links. 
+This contains details about my basketball career, including statistics, achievements, training background, and game highlights. 
 
 Site is Currently deployed at <b>Netlify</b>'s Free tier .
 
@@ -57,10 +56,8 @@ Nothing special, its setup at Netlify end (in other words: no `netlify.toml`), j
 
 ## Credits
 
-Logo and Avatar are made by my friend : <b>KojiroArt</b>.
-Please check him out at his [`twitter`](https://twitter.com/kojiro_ai) account.  
+Basketball portfolio design and development. Player photos and branding are for demonstration purposes.
 
-And of course 
-Made with Love and :coffee:
+Made with Passion and :basketball:
 
-KL 
+Basketball Athlete 

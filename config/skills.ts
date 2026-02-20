@@ -1,53 +1,29 @@
 import { IconType } from 'react-icons'
 import {
-  SiDotNet,
-  SiJavascript,
-  SiTypescript,
-  SiNodeDotJs,
-  SiGraphql,
-  SiApollographql,
-  SiPhp,
-  SiReact,
-  SiNextDotJs,
-  SiRedux,
-  SiStyledComponents,
-  SiGhost,
-  SiVueDotJs,
-  SiDocker,
-  SiGooglecloud,
-  SiCpanel,
-  SiRancher,
-  SiGitlab,
-  SiPostgresql,
-  SiMicrosoftsqlserver,
-  SiMysql,
-  SiMongodb,
-  SiRedis,
-  SiSocketDotIo,
-  SiMaterialUi,
-  SiFramer,
-  SiGit,
-  SiGnubash,
-  SiVisualstudiocode,
-  SiUnity,
-  SiMicrosoft,
-  SiElectron,
-} from 'react-icons/si'
+  GiBasketballBall,
+  GiTargeted,
+  GiFootprint,
+  GiTrophy,
+  GiWhistle,
+  GiBasketballJersey,
+  GiBiceps,
+  GiRunningShoe,
+  GiStopwatch,
+  GiMagnetism,
+  GiShield,
+  GiHeartBeats,
+} from 'react-icons/gi'
 import { BsQuestionSquare } from 'react-icons/bs'
-import { AiOutlineAntDesign } from 'react-icons/ai'
-import { FaSourcetree } from 'react-icons/fa'
-import { IoLogoPwa } from 'react-icons/io5'
 
 export type SkillCategory =
-  | 'backend'
-  | 'frontend'
-  | 'cicd'
-  | 'database'
-  | 'ui frameworks'
-  | 'productivity boost'
-  | 'mobile'
-  | 'games'
-  | 'desktop'
+  | 'offensive skills'
+  | 'defensive skills'
+  | 'physical attributes'
+  | 'basketball iq'
+  | 'shooting'
+  | 'playmaking'
+  | 'leadership'
+  | 'achievements'
 
 export type Skill = {
   name: string
@@ -57,178 +33,180 @@ export type Skill = {
 export const Skills: {
   [key in SkillCategory]: Skill[]
 } = {
-  backend: [
+  'offensive skills': [
     {
-      name: 'C# - .NET.Core',
-      icon: SiDotNet,
+      name: '3-Point Shooting',
+      icon: GiBasketballBall,
     },
     {
-      name: 'Node',
-      icon: SiNodeDotJs,
+      name: 'Mid-Range Game',
+      icon: GiTargeted,
     },
     {
-      name: 'Javascript (ES6+)',
-      icon: SiJavascript,
+      name: 'Driving to Basket',
+      icon: GiFootprint,
     },
     {
-      name: 'Typescript',
-      icon: SiTypescript,
+      name: 'Post Moves',
+      icon: GiBiceps,
     },
     {
-      name: 'Graphql (JS, C#)',
-      icon: SiGraphql,
-    },
-    {
-      name: 'PHP (Wordpress, Slim)',
-      icon: SiPhp,
+      name: 'Transition Offense',
+      icon: GiRunningShoe,
     },
   ],
-  frontend: [
+  'defensive skills': [
     {
-      name: 'React, RecoilJS',
-      icon: SiReact,
+      name: 'Perimeter Defense',
+      icon: GiShield,
     },
     {
-      name: 'NextJS',
-      icon: SiNextDotJs,
+      name: 'Shot Blocking',
+      icon: GiBasketballJersey,
     },
     {
-      name: 'Apollo Graphql',
-      icon: SiApollographql,
+      name: 'Steals & Deflections',
+      icon: GiWhistle,
     },
     {
-      name: 'Redux',
-      icon: SiRedux,
+      name: 'Rebounding',
+      icon: GiTrophy,
     },
     {
-      name: 'VueJS',
-      icon: SiVueDotJs,
-    },
-    {
-      name: 'Ghost',
-      icon: SiGhost,
+      name: 'Help Defense',
+      icon: GiMagnetism,
     },
   ],
-  database: [
+  'physical attributes': [
     {
-      name: 'PostgreSQL',
-      icon: SiPostgresql,
+      name: 'Speed & Agility',
+      icon: GiRunningShoe,
     },
     {
-      name: 'MsSQL',
-      icon: SiMicrosoftsqlserver,
+      name: 'Vertical Jump',
+      icon: GiFootprint,
     },
     {
-      name: 'MySQL',
-      icon: SiMysql,
+      name: 'Stamina',
+      icon: GiHeartBeats,
     },
     {
-      name: 'MongoDb',
-      icon: SiMongodb,
+      name: 'Strength',
+      icon: GiBiceps,
     },
     {
-      name: 'Redis',
-      icon: SiRedis,
-    },
-    {
-      name: 'SocketIO',
-      icon: SiSocketDotIo,
-    },
-    {
-      name: 'Google Pubsub',
-      icon: SiGooglecloud,
+      name: 'Quick Reflexes',
+      icon: GiStopwatch,
     },
   ],
-  cicd: [
+  'basketball iq': [
     {
-      name: 'Docker',
-      icon: SiDocker,
+      name: 'Court Vision',
+      icon: GiWhistle,
     },
     {
-      name: 'GCP',
-      icon: SiGooglecloud,
+      name: 'Game Awareness',
+      icon: GiTargeted,
     },
     {
-      name: 'CPanel',
-      icon: SiCpanel,
+      name: 'Strategic Thinking',
+      icon: GiMagnetism,
     },
     {
-      name: 'Rancher',
-      icon: SiRancher,
+      name: 'Adaptability',
+      icon: GiFootprint,
     },
     {
-      name: 'GitlabCICD',
-      icon: SiGitlab,
-    },
-    {
-      name: 'Buildkite',
-      icon: BsQuestionSquare,
+      name: 'Decision Making',
+      icon: GiStopwatch,
     },
   ],
-  'ui frameworks': [
+  shooting: [
     {
-      name: 'Styled Components',
-      icon: SiStyledComponents,
+      name: 'Free Throw Accuracy',
+      icon: GiTargeted,
     },
     {
-      name: 'AntDesign',
-      icon: AiOutlineAntDesign,
+      name: 'Clutch Shooting',
+      icon: GiTrophy,
     },
     {
-      name: 'MaterialUI',
-      icon: SiMaterialUi,
+      name: 'Shooting Form',
+      icon: GiBasketballBall,
     },
     {
-      name: 'Framer Motion',
-      icon: SiFramer,
+      name: 'Quick Release',
+      icon: GiStopwatch,
     },
     {
-      name: 'ChakraUI',
-      icon: BsQuestionSquare,
-    },
-  ],
-  'productivity boost': [
-    {
-      name: 'VSCode',
-      icon: SiVisualstudiocode,
-    },
-    {
-      name: 'Git',
-      icon: SiGit,
-    },
-    {
-      name: 'Bash',
-      icon: SiGnubash,
-    },
-    {
-      name: 'SourceTree',
-      icon: FaSourcetree,
+      name: 'Range Shooting',
+      icon: GiFootprint,
     },
   ],
-  mobile: [
+  playmaking: [
     {
-      name: 'React Native',
-      icon: SiReact,
+      name: 'Passing Skills',
+      icon: GiBasketballBall,
     },
     {
-      name: 'Web PWA',
-      icon: IoLogoPwa,
+      name: 'Assist Creation',
+      icon: GiWhistle,
+    },
+    {
+      name: 'Pick & Roll',
+      icon: GiMagnetism,
+    },
+    {
+      name: 'Ball Handling',
+      icon: GiTargeted,
+    },
+    {
+      name: 'Court Leadership',
+      icon: GiBasketballJersey,
     },
   ],
-  games: [
+  leadership: [
     {
-      name: 'Unity3D',
-      icon: SiUnity,
+      name: 'Team Captain',
+      icon: GiBasketballJersey,
+    },
+    {
+      name: 'Motivation',
+      icon: GiHeartBeats,
+    },
+    {
+      name: 'Communication',
+      icon: GiWhistle,
+    },
+    {
+      name: 'Leading by Example',
+      icon: GiTrophy,
+    },
+    {
+      name: 'Mentorship',
+      icon: GiTargeted,
     },
   ],
-  desktop: [
+  achievements: [
     {
-      name: 'Windows Forms, WPF',
-      icon: SiMicrosoft,
+      name: 'Championship Titles',
+      icon: GiTrophy,
     },
     {
-      name: 'Electron',
-      icon: SiElectron,
+      name: 'MVP Awards',
+      icon: GiBasketballJersey,
+    },
+    {
+      name: 'All-Star Selections',
+      icon: GiBasketballBall,
+    },
+    {
+      name: 'Records Broken',
+      icon: GiStopwatch,
+    },
+    {
+      name: 'Team Achievements',
+      icon: GiMagnetism,
     },
   ],
 }

@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'Deloitte' | 'SCG' | 'Blotocol'
+export type Company = 'HighSchool' | 'College' | 'AmateurLeague' | 'TrainingCamp'
 
 export type CompanyDetail = {
   name: string
@@ -19,145 +19,117 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
-  Deloitte: {
-    name: 'Deloitte',
-    longName: 'Deloitte Consulthing Phils. Delivery Center',
-    subDetail: 'Consulthing Phils. Delivery Center',
-    url: 'https://www2.deloitte.com/',
-    position: 'Software Engineer Consultant',
-    duration: 'Sep 2021 - Present',
+  HighSchool: {
+    name: 'Springfield High',
+    longName: 'Springfield High School Basketball',
+    subDetail: 'Varsity Team',
+    url: 'https://example.com/springfield-hs',
+    position: 'Starting Point Guard',
+    duration: '2016 - 2020',
     logo: {
-      light: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
-      dark: '/worked_at_logos/deloitte/Deloitte_logo.png',
+      light: '/worked_at_logos/highschool/springfield_logo.png',
+      dark: '/worked_at_logos/highschool/springfield_logo_dark.png',
     },
     roles: [
       <>
-       Contributed to the design and development of a comprehensive .NET payment integration project for a client
-       That covered credit card payments and subscription management.
-       Introduced Stripe as a new payment provider within the system architecture.
-       Participated in triaging, fixing and adding new functionalitiesto multiple Azure powered APIs of the same client.
+       Led team to State Championship appearance in 2019
+       Averaged 18.5 points, 7.2 assists, 4.3 rebounds per game
+       Named Team MVP and All-Conference First Team
       </>,
       <>
-        Worked as a Sitecore Backend on new{' '}
-        <Link
-          aria-label="Deloitte Digital AU"
-          href="https://www.deloittedigital.com.au/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Deloitte Digital AU Site.
-        </Link>
+        Selected as Team Captain in junior and senior years
+        Maintained 3.8 GPA while balancing athletics and academics
+        Won District Championship in 2018
       </>,
       <>
-        Udergone training for .NET Sitecore 10,
-        Sitecore SXA and different topologies it provides.{' '} and Passed {' '}
-        <Link
-          aria-label="Sitecore 10 .NET Developer Certification"
-          href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Sitecore 10 .NET Developer Certification.
-        </Link>
+        Set school record for most 3-pointers in a season (78)
+        Participated in National High School Basketball Tournament
+        Received All-State Honorable Mention
       </>,
     ],
   },
-  SCG: {
-    name: 'Scentregroup',
-    longName: 'Scentregroup Limited AU',
-    subDetail: 'via Prosource BPO',
-    url: 'https://www.scentregroup.com/',
-    position: 'Software Engineer',
-    duration: 'Feb 2020 - Sep 2021',
+  College: {
+    name: 'State University',
+    longName: 'State University Basketball Program',
+    subDetail: 'NCAA Division I',
+    url: 'https://example.com/state-university',
+    position: 'Shooting Guard',
+    duration: '2020 - 2024',
     logo: {
-      light: '/worked_at_logos/scg/SCG_400x400.jpg',
-      dark: '/worked_at_logos/scg/SCG.png',
+      light: '/worked_at_logos/college/state_university_logo.png',
+      dark: '/worked_at_logos/college/state_university_logo_dark.png',
     },
     roles: [
       <>
-        Revamping the legacy Partner Portal into a new{' '}
-        <Link
-          aria-label="Westfield Marketing Hub"
-          href="https://partner.scentregroup.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield Marketing Hub
-        </Link>{' '}
-        using NextJS and Typescript. Restructuring the old express app into a
-        newer architectural design approach.
+        Started 85 of 120 games during college career
+        Averaged 12.3 points, 3.8 assists, 2.9 rebounds per game
+        Helped team reach March Madness Tournament twice
       </>,
       <>
-        Created multiple Contentful and Bynder extensions to improve BX process
-        better.
+        Named to Conference All-Academic Team
+        Led team in 3-point shooting percentage (42.1%)
+        Won Conference Championship in 2022
       </>,
       <>
-        Worked on maintaining{' '}
-        <Link
-          variant="primaryLink"
-          href="https://www.westfield.com.au/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield
-        </Link>{' '}
-        main site and Graphql apis written in NodeJS.
-      </>,
-      <>
-        Migrating of existing marketing email related tools and batch jobs from
-        Responsys into new platform called Braze.
-      </>,
-      <>
-        Hired at early 2020, first major task was helping with selecting a new
-        marketing vendor that can scale and also enable us to have
-        personalisation as well, selecting{' '}
-        <Link
-          aria-label="Braze"
-          href="https://www.braze.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Braze
-        </Link>{' '}
-        as a result.
+        Served as Team Vice-Captain in senior year
+        Graduated with Bachelor's in Sports Management
+        Received team's Leadership Award
       </>,
     ],
   },
-  Blotocol: {
-    name: 'Blotocol',
-    longName: 'Blotocol Philippines',
-    subDetail: 'formerly IVP Global Inc.',
-    url: 'https://blotocol.com/',
-    position: 'Senior Software Engineer',
-    duration: 'Nov 2016 - Feb 2020',
+  AmateurLeague: {
+    name: 'City Elite',
+    longName: 'City Elite Amateur Basketball League',
+    subDetail: 'Premier Division',
+    url: 'https://example.com/city-elite',
+    position: 'Team Captain',
+    duration: '2024 - Present',
     logo: {
-      light: '/worked_at_logos/ivp/blotocol_logo-dark.png',
-      dark: '/worked_at_logos/ivp/blotocol-logo-white.png',
+      light: '/worked_at_logos/amateur/city_elite_logo.png',
+      dark: '/worked_at_logos/amateur/city_elite_logo_dark.png',
     },
     roles: [
       <>
-        Developed a Twitter Raffle Campaign / Contest Bot called Camps with
-        statistics similar to Facebook Ads.
+        Leading team in scoring with 22.4 points per game
+        Organizing team practices and strategic planning
+        Maintaining team chemistry and morale
       </>,
       <>
-        In 2019 got promoted as Senior Software Engineer and worked with Cryto
-        Exchange, Smart Contracts and other APIs using several techs such as
-        NodeJS, .NET Core and React.
+        Selected as League All-Star in 2024
+        Leading team to playoff contention
+        Mentoring younger players on the team
+      </>,
+    ],
+  },
+  TrainingCamp: {
+    name: 'Elite Skills Academy',
+    longName: 'Elite Skills Basketball Training Academy',
+    subDetail: 'Advanced Training Program',
+    url: 'https://example.com/elite-academy',
+    position: 'Student Athlete',
+    duration: 'Summer 2023',
+    logo: {
+      light: '/worked_at_logos/training/elite_academy_logo.png',
+      dark: '/worked_at_logos/training/elite_academy_logo_dark.png',
+    },
+    roles: [
+      <>
+        Completed intensive 8-week training program
+        Improved shooting accuracy by 15%
+        Trained with former professional players
       </>,
       <>
-        Create highly scalable Japanese e-commerce sites. Most notable clients
-        were TV Tokyo, Layla EC using .NET.
-      </>,
-      <>
-        Hired at 2016, Undergone Japanese language training first. Shortly
-        after, worked with in-house .NET MVC Framework called ERS.
+        Participated in showcase tournaments
+        Received certification in Advanced Basketball Analytics
+        Networked with scouts and coaches
       </>,
     ],
   },
 }
 
 export const ExperiencesList = [
-  Experiences.Deloitte,
-  Experiences.SCG,
-  Experiences.Blotocol,
+  Experiences.HighSchool,
+  Experiences.College,
+  Experiences.AmateurLeague,
+  Experiences.TrainingCamp,
 ]

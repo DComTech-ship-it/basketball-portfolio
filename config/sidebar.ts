@@ -1,13 +1,13 @@
 import { IconType } from 'react-icons'
 import {
   FaInstagram,
-  FaLinkedin,
-  FaStackOverflow,
   FaTwitter,
   FaYoutube,
-  FaGithub,
-  FaDev,
+  FaLinkedin,
+  FaTiktok,
+  FaBasketballBall,
 } from 'react-icons/fa'
+import { GiBasketballJersey } from 'react-icons/gi'
 
 type SocialMedia = {
   label: string
@@ -18,37 +18,37 @@ type SocialMedia = {
 export const SocialMedias: SocialMedia[] = [
   {
     label: 'Twitter',
-    href: 'https://twitter.com/keysl1831',
+    href: 'https://twitter.com/basketball_player',
     icon: FaTwitter,
   },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/kllawingco/',
+    href: 'https://www.instagram.com/basketball_highlights/',
     icon: FaInstagram,
   },
   {
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/marclawingco/',
-    icon: FaLinkedin,
-  },
-  {
-    label: 'StackOverflow',
-    href: 'https://stackoverflow.com/users/3867490/keysl',
-    icon: FaStackOverflow,
-  },
-  {
-    label: 'Youtube',
-    href: 'https://www.youtube.com/channel/UCV-MiUVsKJrKJKKfUK58nhg',
+    label: 'YouTube',
+    href: 'https://www.youtube.com/channel/basketball_highlights',
     icon: FaYoutube,
   },
   {
-    label: 'Github',
-    href: 'https://github.com/klawingco',
-    icon: FaGithub,
+    label: 'TikTok',
+    href: 'https://www.tiktok.com/@basketball_clips',
+    icon: FaTiktok,
   },
   {
-    label: 'Dev.to',
-    href: 'https://dev.to/klawingco',
-    icon: FaDev,
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/basketball_athlete/',
+    icon: FaLinkedin,
+  },
+  {
+    label: 'Basketball Profile',
+    href: 'https://example.com/basketball_profile',
+    icon: FaBasketballBall,
+  },
+  {
+    label: 'Team Jersey',
+    href: 'https://example.com/team_store',
+    icon: GiBasketballJersey,
   },
 ]

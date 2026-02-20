@@ -16,6 +16,10 @@ import Avatar from 'components/Avatar'
 import About from 'components/Sections/About'
 import Experience from 'components/Sections/Experience'
 import FeaturedWorks from 'components/Sections/FeaturedWorks'
+import Stats from 'components/Sections/Stats'
+import VideoHighlights from 'components/Sections/VideoHighlights'
+import Achievements from 'components/Sections/Achievements'
+import Recruitment from 'components/Sections/Recruitment'
 import ScrollMore from 'components/Misc/ScrollMore'
 import { Article } from 'types/article'
 // These are on bottom sections so no need to render it instantly
@@ -99,7 +103,7 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
             </FadeInLayout>
             <FadeInLayout>
               <Box
-                id="jobs"
+                id="career"
                 className="contentRow"
                 paddingTop={{ base: 0, lg: 20, xl: 0 }}
                 paddingBottom={{ base: 12, lg: 10 }}
@@ -111,14 +115,50 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
             </FadeInLayout>
             <FadeInLayout>
               <Box
-                id="works"
+                id="stats"
+                className="contentRow"
+                paddingTop={{ base: 0, lg: 20, xl: 0 }}
+                paddingBottom={{ base: 12, lg: 10 }}
+                paddingX={0}
+                flexDirection={'row'}
+              >
+                <Stats />
+              </Box>
+            </FadeInLayout>
+            <FadeInLayout>
+              <Box
+                id="highlights"
                 className="contentRow"
                 paddingTop={{ base: 0, lg: 20, xl: 20 }}
                 paddingBottom={{ base: 12, lg: 10 }}
                 paddingX={0}
                 flexDirection={'row'}
               >
-                <FeaturedWorks />
+                <VideoHighlights />
+              </Box>
+            </FadeInLayout>
+            <FadeInLayout>
+              <Box
+                id="achievements"
+                className="contentRow"
+                paddingTop={{ base: 0, lg: 20, xl: 20 }}
+                paddingBottom={{ base: 12, lg: 10 }}
+                paddingX={0}
+                flexDirection={'row'}
+              >
+                <Achievements />
+              </Box>
+            </FadeInLayout>
+            <FadeInLayout>
+              <Box
+                id="recruitment"
+                className="contentRow"
+                paddingTop={{ base: 0, lg: 20, xl: 20 }}
+                paddingBottom={{ base: 12, lg: 10 }}
+                paddingX={0}
+                flexDirection={'row'}
+              >
+                <Recruitment />
               </Box>
             </FadeInLayout>
             <FadeInLayout>

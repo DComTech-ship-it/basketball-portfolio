@@ -150,11 +150,11 @@ const Navigation = () => {
               padding={2}
               marginX={2}
               as="a"
-              href="#jobs"
+              href="#career"
               rel="noreferrer"
               onClick={onMenuItemClick}
             >
-              Experience
+              Career
             </Button>
           </Box>
           <Box
@@ -171,11 +171,74 @@ const Navigation = () => {
               padding={2}
               marginX={2}
               as="a"
-              href="#works"
+              href="#stats"
               rel="noreferrer"
               onClick={onMenuItemClick}
             >
-              Works
+              Stats
+            </Button>
+          </Box>
+          <Box
+            width={{ base: '100%', lg: 'auto' }}
+            textAlign={{ base: 'center', lg: 'left' }}
+            marginY={{ base: 2, lg: 0 }}
+          >
+            <Button
+              fontWeight="light"
+              variant="ghost"
+              fontSize={menuButtonSize}
+              letterSpacing={2}
+              className={btnClassName}
+              padding={2}
+              marginX={2}
+              as="a"
+              href="#highlights"
+              rel="noreferrer"
+              onClick={onMenuItemClick}
+            >
+              Highlights
+            </Button>
+          </Box>
+          <Box
+            width={{ base: '100%', lg: 'auto' }}
+            textAlign={{ base: 'center', lg: 'left' }}
+            marginY={{ base: 2, lg: 0 }}
+          >
+            <Button
+              fontWeight="light"
+              variant="ghost"
+              fontSize={menuButtonSize}
+              letterSpacing={2}
+              className={btnClassName}
+              padding={2}
+              marginX={2}
+              as="a"
+              href="#achievements"
+              rel="noreferrer"
+              onClick={onMenuItemClick}
+            >
+              Awards
+            </Button>
+          </Box>
+          <Box
+            width={{ base: '100%', lg: 'auto' }}
+            textAlign={{ base: 'center', lg: 'left' }}
+            marginY={{ base: 2, lg: 0 }}
+          >
+            <Button
+              fontWeight="light"
+              variant="ghost"
+              fontSize={menuButtonSize}
+              letterSpacing={2}
+              className={btnClassName}
+              padding={2}
+              marginX={2}
+              as="a"
+              href="#recruitment"
+              rel="noreferrer"
+              onClick={onMenuItemClick}
+            >
+              Recruitment
             </Button>
           </Box>
           <Box
