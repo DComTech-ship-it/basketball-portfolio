@@ -25,6 +25,7 @@ import {
   GiAcademicCap,
   GiTeamUpgrade,
 } from 'react-icons/gi'
+import { FaGraduationCap } from 'react-icons/fa'
 
 const Achievements = () => {
   const bgColor = useColorModeValue('white', 'gray.800')
@@ -94,7 +95,7 @@ const Achievements = () => {
       title: 'All-Academic Team',
       description: 'Named to Conference All-Academic Team',
       category: 'Academic',
-      icon: GiAcademicCap,
+      icon: GiStairs,
       color: 'red',
       stats: '3.8 GPA',
       team: 'State University',
