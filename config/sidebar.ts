@@ -4,7 +4,6 @@ import {
   FaTwitter,
   FaYoutube,
   FaLinkedin,
-  FaTiktok,
   FaBasketballBall,
 } from 'react-icons/fa'
 import { GiBasketballJersey } from 'react-icons/gi'
@@ -34,7 +33,7 @@ export const SocialMedias: SocialMedia[] = [
   {
     label: 'TikTok',
     href: 'https://www.tiktok.com/@basketball_clips',
-    icon: FaTiktok,
+    icon: FaInstagram,
   },
   {
     label: 'LinkedIn',
