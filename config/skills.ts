@@ -9,7 +9,6 @@ import {
   GiBiceps,
   GiRunningShoe,
   GiStopwatch,
-  GiMagnetism,
   GiShield,
   GiHeartBeats,
 } from 'react-icons/gi'
@@ -74,7 +73,7 @@ export const Skills: {
     },
     {
       name: 'Help Defense',
-      icon: GiMagnetism,
+      icon: GiTargeted,
     },
   ],
   'physical attributes': [
@@ -110,7 +109,7 @@ export const Skills: {
     },
     {
       name: 'Strategic Thinking',
-      icon: GiMagnetism,
+      icon: GiTargeted,
     },
     {
       name: 'Adaptability',
@@ -154,7 +153,7 @@ export const Skills: {
     },
     {
       name: 'Pick & Roll',
-      icon: GiMagnetism,
+      icon: GiTargeted,
     },
     {
       name: 'Ball Handling',
@@ -206,7 +205,7 @@ export const Skills: {
     },
     {
       name: 'Team Achievements',
-      icon: GiMagnetism,
+      icon: GiTargeted,
     },
   ],
 }
