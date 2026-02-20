@@ -19,7 +19,7 @@ const Logo = () => {
             className={!isMobile ? styles.logo : ''}
             boxSize={isMobile ? '30px' : '50px'}
             objectFit="cover"
-            src="./logo.png"
+            src="./logo-dark.svg"
             alt="AGBOBLI ELLIOT EDEM Logo"
             fallbackSrc="./logo.png"
             variants={simpleOpacity}
@@ -33,7 +33,7 @@ const Logo = () => {
             className={!isMobile ? styles.logo : ''}
             boxSize={isMobile ? '30px' : '50px'}
             objectFit="cover"
-            src="./logo_alt.png"
+            src="./logo-light.svg"
             alt="AGBOBLI ELLIOT EDEM Logo"
             fallbackSrc="./logo_light.png"
             variants={simpleOpacity}
