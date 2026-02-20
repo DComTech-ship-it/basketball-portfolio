@@ -20,7 +20,7 @@ const Logo = () => {
             boxSize={isMobile ? '30px' : '50px'}
             objectFit="cover"
             src="./logo.png"
-            alt="KL Lawingco Logo"
+            alt="AGBOBLI ELLIOT EDEM Logo"
             fallbackSrc="./logo.png"
             variants={simpleOpacity}
             initial="initial"
@@ -33,9 +33,9 @@ const Logo = () => {
             className={!isMobile ? styles.logo : ''}
             boxSize={isMobile ? '30px' : '50px'}
             objectFit="cover"
-            src="./logo_light.png"
+            src="./logo_alt.png"
+            alt="AGBOBLI ELLIOT EDEM Logo"
             fallbackSrc="./logo_light.png"
-            alt="KL Lawingco Logo"
             variants={simpleOpacity}
             initial="initial"
             animate={isLogoLoaded && 'animate'}
