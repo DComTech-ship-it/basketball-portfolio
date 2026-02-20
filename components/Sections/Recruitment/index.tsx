@@ -35,7 +35,6 @@ import {
   GiTargeted,
   GiFootprint,
   GiTrophy,
-  GiAcademicCap,
   GiWhistle,
 } from 'react-icons/gi'
 
@@ -98,7 +97,7 @@ const Recruitment = () => {
     {
       label: 'Major',
       value: playerProfile.major,
-      icon: GiAcademicCap,
+      icon: FaGraduationCap,
       description: 'Field of Study',
     },
   ]
