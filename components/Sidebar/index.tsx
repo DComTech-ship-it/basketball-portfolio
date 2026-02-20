@@ -90,7 +90,7 @@ const Sidebar = () => {
             className={styles.marginTopForce}
             variants={fadeInUp}
           >
-            Or you could call me AGBOBLI. That works too . . .
+            Or you could call me Excort. That works too . . .
           </MotionText>
 
           <MotionHeading
