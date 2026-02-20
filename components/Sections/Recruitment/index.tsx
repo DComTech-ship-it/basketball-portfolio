@@ -30,14 +30,14 @@ const Recruitment = () => {
   const emphasis = useColorModeValue('teal.500', 'cyan.200')
 
   const playerProfile = {
-    name: 'John Basketball Player',
+    name: 'AGBOBLI ELLIOT EDEM',
     position: 'Shooting Guard / Point Guard',
     height: "6'3\"",
     weight: '185 lbs',
     age: 22,
     graduationYear: '2024',
     gpa: '3.8',
-    email: 'player@basketball.com',
+    email: 'agbobli.edem@email.com',
     phone: '+1 (555) 123-4567',
   }
 
