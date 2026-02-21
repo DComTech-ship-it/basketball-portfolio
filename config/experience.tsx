@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'HighSchool' | 'College' | 'AmateurLeague' | 'TrainingCamp'
+export type Company = 'HighSchool' | 'College' | 'AmateurLeague' | 'TrainingCamp' | 'Leadership' | 'Achievement' | 'Competition'
 
 export type CompanyDetail = {
   name: string
@@ -45,6 +45,35 @@ export const Experiences: {
         Overcame height challenges to excel as point guard
         Recognized for outstanding performance and clutch plays
         Selected to represent school in various competitions
+      </>,
+    ],
+  },
+  College: {
+    name: 'State University',
+    longName: 'State University Basketball Program',
+    subDetail: 'NCAA Division I',
+    url: 'https://example.com/state-university',
+    position: 'Shooting Guard',
+    duration: '2020 - 2024',
+    logo: {
+      light: '/highlights/IMG-20240922-WA0054 (2).jpg',
+      dark: '/highlights/IMG-20240922-WA0054 (2).jpg',
+    },
+    roles: [
+      <>
+        Started 85 of 120 games during college career
+        Averaged 12.3 points, 3.8 assists, 2.9 rebounds per game
+        Helped team reach March Madness Tournament twice
+      </>,
+      <>
+        Named to Conference All-Academic Team
+        Led team in 3-point shooting percentage (42.1%)
+        Won Conference Championship in 2022
+      </>,
+      <>
+        Served as Team Vice-Captain in senior year
+        Graduated with Bachelor's in Sports Management
+        Received team's Leadership Award
       </>,
     ],
   },
@@ -106,10 +135,86 @@ export const Experiences: {
       </>,
     ],
   },
+  Leadership: {
+    name: 'Leadership Excellence',
+    longName: 'Leadership & Team Development',
+    subDetail: 'Outstanding Leadership Performance',
+    url: 'https://example.com/leadership',
+    position: 'Team Leader & Mentor',
+    duration: '2021 - Present',
+    logo: {
+      light: '/highlights/IMG-20240922-WA0055 (2).jpg',
+      dark: '/highlights/IMG-20240922-WA0055 (2).jpg',
+    },
+    roles: [
+      <>
+        Mentored younger players on team dynamics
+        Organized team building activities and practices
+        Fostered positive team culture and communication
+      </>,
+      <>
+        Led by example with consistent work ethic and dedication
+        Demonstrated strategic thinking and game management
+        Recognized for ability to motivate and inspire teammates
+      </>,
+    ],
+  },
+  Achievement: {
+    name: 'Special Recognition',
+    longName: 'Basketball Achievements & Awards',
+    subDetail: 'Outstanding Performance Recognition',
+    url: 'https://example.com/achievements',
+    position: 'Award-Winning Performance',
+    duration: '2023 - Present',
+    logo: {
+      light: '/highlights/IMG-20240922-WA0056 (2).jpg',
+      dark: '/highlights/IMG-20240922-WA0056 (2).jpg',
+    },
+    roles: [
+      <>
+        Recognized for exceptional performance in key games
+        Received multiple MVP and leadership awards
+        Selected for various all-star and showcase teams
+      </>,
+      <>
+        Acknowledged for sportsmanship and team play
+        Demonstrated outstanding character on and off court
+        Contributed significantly to team success and culture
+      </>,
+    ],
+  },
+  Competition: {
+    name: 'Championship Success',
+    longName: 'Competition & Tournament Performance',
+    subDetail: 'Elite Competitive Performance',
+    url: 'https://example.com/competitions',
+    position: 'Championship Performer',
+    duration: '2022 - Present',
+    logo: {
+      light: '/highlights/IMG-20240922-WA0057 (2).jpg',
+      dark: '/highlights/IMG-20240922-WA0057 (2).jpg',
+    },
+    roles: [
+      <>
+        Excelled in high-pressure championship games
+        Delivered clutch performances in critical moments
+        Led team to multiple tournament victories
+      </>,
+      <>
+        Consistently performed at elite level in competitions
+        Maintained composure and focus during intense games
+        Recognized for game-changing plays and leadership
+      </>,
+    ],
+  },
 }
 
 export const ExperiencesList = [
   Experiences.HighSchool,
+  Experiences.College,
   Experiences.AmateurLeague,
   Experiences.TrainingCamp,
+  Experiences.Leadership,
+  Experiences.Achievement,
+  Experiences.Competition,
 ]
