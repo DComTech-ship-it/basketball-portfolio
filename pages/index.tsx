@@ -20,6 +20,7 @@ import Stats from 'components/Sections/Stats'
 import VideoHighlights from 'components/Sections/VideoHighlights'
 import Achievements from 'components/Sections/Achievements'
 import Recruitment from 'components/Sections/Recruitment'
+import Comments from 'components/Sections/Comments'
 import ScrollMore from 'components/Misc/ScrollMore'
 import { Article } from 'types/article'
 // These are on bottom sections so no need to render it instantly
@@ -182,6 +183,18 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
                 flexDirection={'row'}
               >
                 <GetInTouch />
+              </Box>
+            </FadeInLayout>
+            <FadeInLayout>
+              <Box
+                id="comments"
+                className="contentRow"
+                paddingTop={{ base: 0, lg: 20, xl: 20 }}
+                paddingBottom={{ base: 12, lg: 10 }}
+                paddingX={0}
+                flexDirection={'row'}
+              >
+                <Comments />
               </Box>
             </FadeInLayout>
           </Stack>
