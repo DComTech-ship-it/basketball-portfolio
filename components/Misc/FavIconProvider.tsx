@@ -8,6 +8,20 @@ const FavIconProvider = ({ children }: { children: JSX.Element }) => {
       <Head>
         <link
           rel="icon"
+          type="image/x-icon"
+          href={
+            colorMode === 'dark' ? '/favicon.ico' : '/favicon-lightmode.ico'
+          }
+        />
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href={
+            colorMode === 'dark' ? '/favicon.ico' : '/favicon-lightmode.ico'
+          }
+        />
+        <link
+          rel="apple-touch-icon"
           href={
             colorMode === 'dark' ? '/favicon.ico' : '/favicon-lightmode.ico'
           }
