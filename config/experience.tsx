@@ -27,8 +27,8 @@ export const Experiences: {
     position: '6\'1 Point Guard / Team Captain',
     duration: '2022 - 2024',
     logo: {
-      light: '/worked_at_logos/deloitte/Deloitte_logo.png',
-      dark: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
+      light: '/highlights/IMG-20240922-WA0050 (2).jpg',
+      dark: '/highlights/IMG-20240922-WA0050 (2).jpg',
     },
     roles: [
       <>
@@ -48,35 +48,6 @@ export const Experiences: {
       </>,
     ],
   },
-  College: {
-    name: 'State University',
-    longName: 'State University Basketball Program',
-    subDetail: 'NCAA Division I',
-    url: 'https://example.com/state-university',
-    position: 'Shooting Guard',
-    duration: '2020 - 2024',
-    logo: {
-      light: '/worked_at_logos/ivp/blotocol-logo-white.png',
-      dark: '/worked_at_logos/ivp/blotocol_logo-dark.png',
-    },
-    roles: [
-      <>
-        Started 85 of 120 games during college career
-        Averaged 12.3 points, 3.8 assists, 2.9 rebounds per game
-        Helped team reach March Madness Tournament twice
-      </>,
-      <>
-        Named to Conference All-Academic Team
-        Led team in 3-point shooting percentage (42.1%)
-        Won Conference Championship in 2022
-      </>,
-      <>
-        Served as Team Vice-Captain in senior year
-        Graduated with Bachelor's in Sports Management
-        Received team's Leadership Award
-      </>,
-    ],
-  },
   AmateurLeague: {
     name: 'Campus Basketball',
     longName: 'School Campus Basketball League',
@@ -85,8 +56,8 @@ export const Experiences: {
     position: 'Ball Chaser to Team Captain',
     duration: '2016 - 2021',
     logo: {
-      light: '/worked_at_logos/amateur/campus_basketball.png',
-      dark: '/worked_at_logos/amateur/campus_basketball_dark.png',
+      light: '/highlights/IMG-20240922-WA0052 (2).jpg',
+      dark: '/highlights/IMG-20240922-WA0052 (2).jpg',
     },
     roles: [
       <>
@@ -114,8 +85,8 @@ export const Experiences: {
     position: 'Dedicated Athlete',
     duration: '2020 - Present',
     logo: {
-      light: '/worked_at_logos/scg/SCG.png',
-      dark: '/worked_at_logos/scg/SCG.png',
+      light: '/highlights/IMG-20240922-WA0053 (2).jpg',
+      dark: '/highlights/IMG-20240922-WA0053 (2).jpg',
     },
     roles: [
       <>
@@ -139,7 +110,6 @@ export const Experiences: {
 
 export const ExperiencesList = [
   Experiences.HighSchool,
-  Experiences.College,
   Experiences.AmateurLeague,
   Experiences.TrainingCamp,
 ]
