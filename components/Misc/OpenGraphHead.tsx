@@ -23,12 +23,12 @@ const OpenGraphHead = () => (
 
     <meta
       property="og:image"
-      content="https://excort-rose.vercel.app/KL_avatar.png"
+      content="https://excort-rose.vercel.app/Basketball_player__1_-removebg-preview.png"
     />
     
     <meta
       property="og:image:secure_url"
-      content="https://excort-rose.vercel.app/KL_avatar.png"
+      content="https://excort-rose.vercel.app/Basketball_player__1_-removebg-preview.png"
     />
     
     <meta
@@ -47,13 +47,13 @@ const OpenGraphHead = () => (
     />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://excort-rose.vercel.app/KL_avatar.png" />
+    <meta name="twitter:image" content="https://excort-rose.vercel.app/Basketball_player__1_-removebg-preview.png" />
     <meta name="twitter:title" content="AGBOBLI ELLIOT EDEM | Basketball Player" />
     <meta name="twitter:description" content="Professional basketball player showcasing skills, stats, highlights, and career journey." />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="https://excort-rose.vercel.app/KL_avatar.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="https://excort-rose.vercel.app/KL_avatar.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="https://excort-rose.vercel.app/KL_avatar.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://excort-rose.vercel.app/Basketball_player__1_-removebg-preview.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://excort-rose.vercel.app/Basketball_player__1_-removebg-preview.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://excort-rose.vercel.app/Basketball_player__1_-removebg-preview.png" />
 
   </Head>
 
