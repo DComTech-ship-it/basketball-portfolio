@@ -78,11 +78,11 @@ export const Experiences: {
     ],
   },
   AmateurLeague: {
-    name: 'Campus Basketball',
-    longName: 'School Campus Basketball League',
-    subDetail: 'Early Development Years',
-    url: 'https://example.com/campus-league',
-    position: 'Ball Chaser to Team Captain',
+    name: 'Basketball Courts',
+    longName: 'Basketball Playing Locations',
+    subDetail: 'Various Courts & Facilities',
+    url: 'https://example.com/basketball-courts',
+    position: 'Player Development',
     duration: '2016 - 2021',
     logo: {
       light: '/highlights/IMG-20240922-WA0052 (2).jpg',
@@ -90,7 +90,7 @@ export const Experiences: {
     },
     roles: [
       <>
-        Started playing football with friends EDWIN ELORM AGBOBLI, EPHRAIM WORLANYO AMAGLO, and SAVIOR KOBBY AMAGLO
+        Played at school campus court with friends EDWIN ELORM AGBOBLI, EPHRAIM WORLANYO AMAGLO, and SAVIOR KOBBY AMAGLO
         Transitioned from football to basketball around age 9-10
         Began by chasing balls out of bounds and observing games
       </>,
@@ -100,9 +100,9 @@ export const Experiences: {
         Took basketball seriously to reach next level
       </>,
       <>
-        Learned from brother's experience against Keta Senior High (2019)
-        Motivated by friends' success at Sogakope Senior High
-        Dedicated to improving skills and game knowledge
+        Played at various community courts and recreation centers
+        Competed in pickup games and local tournaments
+        Improved court awareness and adaptability to different environments
       </>,
     ],
   },
