@@ -12,24 +12,18 @@ const OpenGraphHead = () => (
 
     <meta property="og:site_name" content="AGBOBLI ELLIOT EDEM" />
 
-    <meta property="og:url" content="https://kllawingco.netlify.app/" />
+    <meta property="og:url" content="https://dcomtech-ship-it.github.io/basketball-portfolio/" />
 
     <meta
-
       property="og:description"
-
-      content="Ohh you found me?. Howdy! I am AGBOBLI ELLIOT EDEM. Or you could call me Excort. That works too . . . I am a Basketball Player"
-
+      content="Professional basketball player showcasing skills, stats, highlights, and career journey. AGBOBLI ELLIOT EDEM - Shooting Guard/Point Guard"
     />
 
     <meta property="og:type" content="profile" />
 
     <meta
-
       property="og:image"
-
-      content="https://kllawingco.netlify.app/KL_avatar.png"
-
+      content="https://dcomtech-ship-it.github.io/basketball-portfolio/KL_avatar.png"
     ></meta>
 
   </Head>
