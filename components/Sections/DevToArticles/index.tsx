@@ -29,7 +29,7 @@ const DevToArticles = ({ articles }: { articles: Article[] }) => {
           fontVariantCaps: 'small-caps',
         }}
       >
-        Dev.to blog
+        Basketball player and you're saying dev to blog
       </Heading>
       <Text variant="description">
         I write dev related things from time to time!
