@@ -135,23 +135,6 @@ const ScrollMore = () => {
           </motion.div>
         )}
       </AnimatePresence>
-      
-      {/* Footer */}
-      <Box
-        position="fixed"
-        bottom="0"
-        left="0"
-        right="0"
-        width="100%"
-        padding="20px"
-        textAlign="center"
-        backgroundColor={useColorModeValue('gray.100', 'gray.900')}
-        color={useColorModeValue('gray.700', 'gray.200')}
-      >
-        <Text fontSize="sm" opacity="0.7">
-          © 2024 AGBOBLI ELLIOT EDEM. Designed and Made with KL Lawingco 2021
-        </Text>
-      </Box>
     </Box>
   )
 }
