@@ -38,7 +38,7 @@ const Recruitment = () => {
     graduationYear: '2024',
     gpa: '3.8',
     email: 'agbobli.edem@email.com',
-    phone: '+233592562748',
+    phone: '+233 (59) 256 2748',
   }
 
   const recruitmentStats = [
