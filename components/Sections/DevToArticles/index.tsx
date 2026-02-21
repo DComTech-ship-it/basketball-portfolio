@@ -32,7 +32,7 @@ const DevToArticles = ({ articles }: { articles: Article[] }) => {
         BB.Player To Blog
       </Heading>
       <Text variant="description">
-        I write dev related things from time to time!
+        I share my basketball journey, training insights, and game analysis through technical articles and development updates.
       </Text>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={{ base: 5, md: 10 }}>
         {articles.map((item) => (
