@@ -27,8 +27,8 @@ export const Experiences: {
     position: '6\'1 Point Guard / Team Captain',
     duration: '2022 - 2024',
     logo: {
-      light: '/worked_at_logos/highschool/mawuli_logo.png',
-      dark: '/worked_at_logos/highschool/mawuli_logo_dark.png',
+      light: '/worked_at_logos/deloitte/Deloitte_logo.png',
+      dark: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
     },
     roles: [
       <>
@@ -56,8 +56,8 @@ export const Experiences: {
     position: 'Shooting Guard',
     duration: '2020 - 2024',
     logo: {
-      light: '/worked_at_logos/college/state_university_logo.png',
-      dark: '/worked_at_logos/college/state_university_logo_dark.png',
+      light: '/worked_at_logos/ivp/blotocol-logo-white.png',
+      dark: '/worked_at_logos/ivp/blotocol_logo-dark.png',
     },
     roles: [
       <>
@@ -114,8 +114,8 @@ export const Experiences: {
     position: 'Dedicated Athlete',
     duration: '2020 - Present',
     logo: {
-      light: '/worked_at_logos/training/basketball_training.png',
-      dark: '/worked_at_logos/training/basketball_training_dark.png',
+      light: '/worked_at_logos/scg/SCG.png',
+      dark: '/worked_at_logos/scg/SCG.png',
     },
     roles: [
       <>
