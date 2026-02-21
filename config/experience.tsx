@@ -78,7 +78,7 @@ export const Experiences: {
     ],
   },
   AmateurLeague: {
-    name: 'Basketball Courts',
+    name: 'Places I\'ve Played',
     longName: 'Basketball Playing Locations',
     subDetail: 'Various Courts & Facilities',
     url: 'https://example.com/basketball-courts',
