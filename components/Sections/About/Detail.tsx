@@ -48,8 +48,34 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         My Basketball Journey
       </Heading>
       <Text variant="description">
-        I`ve been playing basketball competitively for {playingYears} years now and
-        currently playing as a <b>Shooting Guard</b> that focuses on{' '}
+        My basketball journey began when I was a kid growing up on a school campus. 
+        In my early 6s, my brother <b>EDWIN ELORM AGBOBLI</b> and I played football with friends 
+        <b>EPHRAIM WORLANYO AMAGLO</b> and <b>SAVIOR KOBBY AMAGLO</b>. We'd come home with wounds every day!
+        
+        Around age 9-10, my brother and friends switched to basketball while I stayed with football. 
+        They started by chasing balls out of bounds and observing the game. When I finally joined them, 
+        I began the same way - retrieving balls for the players.
+        
+        The pandemic was my turning point. I decided to take basketball seriously. 
+        My brother got selected for high school but our dad removed his name to focus on studies. 
+        He played against Keta Senior High in 2019 and told me "bro, you've got a lot of work to do" 
+        after seeing opponents block shots due to height advantages.
+        
+        My two friends represented Sogakope Senior High, which motivated me - I couldn't be left behind. 
+        I rejected Sogakope Senior High (despite my dad's efforts) and chose Mawuli School in 2022.
+        
+        COVID meant no freshers games in 2022. In 2023, I was ill during inter-house games. 
+        During zonals training, I was told I wasn't tall enough for competition.
+        
+        My final year was when it all began! Though known as a "hooper" since first year, 
+        I finally got my chance. I gathered friends from my school house, trained together, 
+        and even went to Ho polytechnic where my childhood friend <b>KOBBY SAVIOR AMAGLO</b> trained us.
+        
+        I became captain of my team as a <b>6'1 point guard</b>. We won our first game, second game, 
+        and third game by just one point against high school team co-players! The final game was pure showtime 
+        because they knew they'd be defeated.
+        
+        Now I'm playing as a <b>Shooting Guard</b> that focuses on{' '}
         <b>scoring</b>, <b>playmaking</b>,{' '}
         <Tooltip
           label="Ha!. Or more accurately CLUTCH PLAYS"
@@ -60,7 +86,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <b>game-winning shots</b>
           </Text>
         </Tooltip>{' '}
-        and even <b>defensive stops</b> when needed, how time flies!
+        and even <b>defensive stops</b> when needed.
+        
         <br /> <br />
         Here are few skills that are my{' '}
         <Tooltip
