@@ -20,31 +20,31 @@ export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
   HighSchool: {
-    name: 'Springfield High',
-    longName: 'Springfield High School Basketball',
-    subDetail: 'Varsity Team',
-    url: 'https://example.com/springfield-hs',
-    position: 'Starting Point Guard',
-    duration: '2016 - 2020',
+    name: 'Mawuli School',
+    longName: 'Mawuli Senior High School Basketball',
+    subDetail: 'Inter-House Competition Captain',
+    url: 'https://example.com/mawuli-school',
+    position: '6\'1 Point Guard / Team Captain',
+    duration: '2022 - 2024',
     logo: {
-      light: '/worked_at_logos/highschool/springfield_logo.png',
-      dark: '/worked_at_logos/highschool/springfield_logo_dark.png',
+      light: '/worked_at_logos/highschool/mawuli_logo.png',
+      dark: '/worked_at_logos/highschool/mawuli_logo_dark.png',
     },
     roles: [
       <>
-       Led team to State Championship appearance in 2019
-       Averaged 18.5 points, 7.2 assists, 4.3 rebounds per game
-       Named Team MVP and All-Conference First Team
+        Led team to victory in Inter-House Competition 2024
+        Won all games including championship final by 1 point
+        Known as "hooper" throughout school since first year
       </>,
       <>
-        Selected as Team Captain in junior and senior years
-        Maintained 3.8 GPA while balancing athletics and academics
-        Won District Championship in 2018
+        Trained team members at Ho polytechnic with childhood friend KOBBY SAVIOR AMAGLO
+        Organized team practices and strategic planning
+        Maintained team chemistry and leadership as captain
       </>,
       <>
-        Set school record for most 3-pointers in a season (78)
-        Participated in National High School Basketball Tournament
-        Received All-State Honorable Mention
+        Overcame height challenges to excel as point guard
+        Recognized for outstanding performance and clutch plays
+        Selected to represent school in various competitions
       </>,
     ],
   },
@@ -78,50 +78,60 @@ export const Experiences: {
     ],
   },
   AmateurLeague: {
-    name: 'City Elite',
-    longName: 'City Elite Amateur Basketball League',
-    subDetail: 'Premier Division',
-    url: 'https://example.com/city-elite',
-    position: 'Team Captain',
-    duration: '2024 - Present',
+    name: 'Campus Basketball',
+    longName: 'School Campus Basketball League',
+    subDetail: 'Early Development Years',
+    url: 'https://example.com/campus-league',
+    position: 'Ball Chaser to Team Captain',
+    duration: '2016 - 2021',
     logo: {
-      light: '/worked_at_logos/amateur/city_elite_logo.png',
-      dark: '/worked_at_logos/amateur/city_elite_logo_dark.png',
+      light: '/worked_at_logos/amateur/campus_basketball.png',
+      dark: '/worked_at_logos/amateur/campus_basketball_dark.png',
     },
     roles: [
       <>
-        Leading team in scoring with 22.4 points per game
-        Organizing team practices and strategic planning
-        Maintaining team chemistry and morale
+        Started playing football with friends EDWIN ELORM AGBOBLI, EPHRAIM WORLANYO AMAGLO, and SAVIOR KOBBY AMAGLO
+        Transitioned from football to basketball around age 9-10
+        Began by chasing balls out of bounds and observing games
       </>,
       <>
-        Selected as League All-Star in 2024
-        Leading team to playoff contention
-        Mentoring younger players on the team
+        Developed basketball skills during pandemic lockdown
+        Trained consistently with childhood friends on school court
+        Took basketball seriously to reach next level
+      </>,
+      <>
+        Learned from brother's experience against Keta Senior High (2019)
+        Motivated by friends' success at Sogakope Senior High
+        Dedicated to improving skills and game knowledge
       </>,
     ],
   },
   TrainingCamp: {
-    name: 'Elite Skills Academy',
-    longName: 'Elite Skills Basketball Training Academy',
-    subDetail: 'Advanced Training Program',
-    url: 'https://example.com/elite-academy',
-    position: 'Student Athlete',
-    duration: 'Summer 2023',
+    name: 'Self-Development',
+    longName: 'Basketball Skills Development',
+    subDetail: 'Personal Training & Development',
+    url: 'https://example.com/self-development',
+    position: 'Dedicated Athlete',
+    duration: '2020 - Present',
     logo: {
-      light: '/worked_at_logos/training/elite_academy_logo.png',
-      dark: '/worked_at_logos/training/elite_academy_logo_dark.png',
+      light: '/worked_at_logos/training/basketball_training.png',
+      dark: '/worked_at_logos/training/basketball_training_dark.png',
     },
     roles: [
       <>
-        Completed intensive 8-week training program
-        Improved shooting accuracy by 15%
-        Trained with former professional players
+        Intensive training during pandemic to elevate game
+        Focused on fundamental skills and basketball IQ
+        Trained with brother and friends for mutual improvement
       </>,
       <>
-        Participated in showcase tournaments
-        Received certification in Advanced Basketball Analytics
-        Networked with scouts and coaches
+        Overcame setbacks: illness during 2023 inter-house games
+        Persisted despite being told "not tall enough" for zonals
+        Continued training and preparation for opportunities
+      </>,
+      <>
+        Breakthrough final year at Mawuli School (2024)
+        Led team to undefeated inter-house competition record
+        Proved doubters wrong with exceptional performance
       </>,
     ],
   },
