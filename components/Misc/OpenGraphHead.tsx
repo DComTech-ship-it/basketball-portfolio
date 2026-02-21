@@ -12,7 +12,7 @@ const OpenGraphHead = () => (
 
     <meta property="og:site_name" content="AGBOBLI ELLIOT EDEM" />
 
-    <meta property="og:url" content="https://dcomtech-ship-it.github.io/basketball-portfolio/" />
+    <meta property="og:url" content="https://excort-rose.vercel.app/" />
 
     <meta
       property="og:description"
@@ -23,7 +23,7 @@ const OpenGraphHead = () => (
 
     <meta
       property="og:image"
-      content="https://dcomtech-ship-it.github.io/basketball-portfolio/KL_avatar.png"
+      content="https://excort-rose.vercel.app/KL_avatar.png"
     ></meta>
 
   </Head>
