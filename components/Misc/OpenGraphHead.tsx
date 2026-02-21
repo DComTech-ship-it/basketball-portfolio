@@ -24,7 +24,32 @@ const OpenGraphHead = () => (
     <meta
       property="og:image"
       content="https://excort-rose.vercel.app/KL_avatar.png"
-    ></meta>
+    />
+    
+    <meta
+      property="og:image:secure_url"
+      content="https://excort-rose.vercel.app/KL_avatar.png"
+    />
+    
+    <meta
+      property="og:image:type"
+      content="image/png"
+    />
+    
+    <meta
+      property="og:image:width"
+      content="1200"
+    />
+    
+    <meta
+      property="og:image:height"
+      content="630"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://excort-rose.vercel.app/KL_avatar.png" />
+    <meta name="twitter:title" content="AGBOBLI ELLIOT EDEM | Basketball Player" />
+    <meta name="twitter:description" content="Professional basketball player showcasing skills, stats, highlights, and career journey." />
 
   </Head>
 
