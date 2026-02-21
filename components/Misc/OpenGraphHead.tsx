@@ -6,7 +6,7 @@ const OpenGraphHead = () => (
 
     <title>AGBOBLI ELLIOT EDEM | Basketball Player</title>
 
-    <meta name="description" content="My personal solace place on web-earth." />
+    <meta name="description" content="Professional basketball player showcasing skills, stats, highlights, and career journey. AGBOBLI ELLIOT EDEM - Shooting Guard/Point Guard" />
 
     <meta property="og:title" content="AGBOBLI ELLIOT EDEM | Basketball Player" />
 
