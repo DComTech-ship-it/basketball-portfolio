@@ -13,7 +13,7 @@ const DetailSection = () => (
         fontVariantCaps: 'small-caps',
       }}
     >
-      Places i’ve worked.
+      Places i’ve Played.
     </Heading>
     <Text variant="description">
       Since 2016, had a privilege to work with several companies that enables me
